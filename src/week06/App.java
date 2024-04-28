@@ -23,16 +23,16 @@ public class App {
 
             if(p1Score > p2Score){
                 player1.incrementScore();
-            } else if (p2Score == p1Score){
-                continue;
-            } else{
-                player2.incrementScore();
+            } else if (p2Score == p1Score){ 
+            	continue; 
+            } else {
+                player2.incrementScore();                 
             }
 
         }
 
-        System.out.println(player1.getScore());
-        System.out.println(player2.getScore());
+        System.out.println("Player1's score is " + player1.getScore());
+        System.out.println("Player2's score is " + player2.getScore());
     }
 	
 		
